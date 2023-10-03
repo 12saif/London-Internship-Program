@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.app-main_container {
+    height: 1024px;
+    width: auto;
+    margin-left: 72px;
+    background-color: red;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}

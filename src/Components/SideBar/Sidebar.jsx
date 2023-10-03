@@ -1,4 +1,5 @@
 import React from "react";
+import "./SideBar.css";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
@@ -16,6 +17,7 @@ const Sidebar = () => {
       <div className="side_bar-top">
         <AccountCircleOutlinedIcon />
         <HomeOutlinedIcon />
+        <PeopleOutlinedIcon />
         <EventAvailableOutlinedIcon />
         <ShareOutlinedIcon />
         <DescriptionOutlinedIcon />
