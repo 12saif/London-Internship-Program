@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.side_bar-container {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    width: 72px;
+}
+
+.side_bar-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-around;
+}
+
+.side_bar-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15%;
+    justify-content: space-around;
+    /* background-color: red; */
+}

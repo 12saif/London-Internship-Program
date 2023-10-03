@@ -4,8 +4,10 @@ import Sidebar from "./Components/SideBar/Sidebar";
 
 function App() {
   return (
-    <div>
-      <Sidebar />
+    <div className="app-main_container">
+      <div className="sidebar">
+        <Sidebar />
+      </div>
     </div>
   );
 }
