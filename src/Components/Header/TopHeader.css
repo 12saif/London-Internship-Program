@@ -1,0 +1,10 @@
+.header_Conatainer {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.left-bar{
+    color: #1D4ED8;
+    font-size: 20px;
+    font-weight: 600;
+}
