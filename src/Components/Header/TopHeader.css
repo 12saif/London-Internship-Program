@@ -2,9 +2,59 @@
     flex: 1;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /* background-color: #ff0000; */
 }
-.left-bar{
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
     color: #1D4ED8;
     font-size: 20px;
     font-weight: 600;
+}
+
+.london {
+    color: #7e7c7c;
+    font-size: 15px;
+}
+
+.mid-bar {
+    display: flex;
+    width: 321px;
+    height: 40px;
+    padding: 2px 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.right-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 478px;
+}
+
+.button-check_user {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+.right_videoCall-button-container{
+    display: flex;
+    background-color: #1D5ECD;
+}
+
+.right_videoCall-button {
+    width: 195px;
+    height: 40px;
+    background-color: #1D5ECD;
 }
