@@ -6,13 +6,6 @@
 .app-main_container {
     height: 1024px;
     width: auto;
-    margin-left: 72px;
-    background-color: red;
-}
-
-.sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    margin: 25px 32px 25px 104px;
+    /* background-color: rgb(245, 238, 238); */
 }
