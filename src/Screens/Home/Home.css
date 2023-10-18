@@ -3,9 +3,15 @@
     margin: 0;
 }
 
-.home_container {
+.home_header {
     height: 56px;
     display: flex;
     align-items: center;
     /* background-color: red; */
+}
+
+.search-and-FeedAreas {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
 }
