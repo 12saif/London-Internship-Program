@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Sidebar from "./Components/SideBar/Sidebar";
-import TopHeader from "./Components/Header/TopHeader";
+import Home from "./Screens/Home/Home";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="sidebar">
         <Sidebar />
       </div>
-      <TopHeader />
+      <Home />
     </div>
   );
 }
