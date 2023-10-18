@@ -5,6 +5,7 @@ import SellOutlinedIcon from "@mui/icons-material/SellOutlined";
 import PersonAddAltOutlinedIcon from "@mui/icons-material/PersonAddAltOutlined";
 import PersonSearchOutlinedIcon from "@mui/icons-material/PersonSearchOutlined";
 import RecordVoiceOverOutlinedIcon from "@mui/icons-material/RecordVoiceOverOutlined";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 // import { red } from "@mui/material/colors";
 
 const TopHeader = () => {
@@ -31,9 +32,14 @@ const TopHeader = () => {
         <div className="button-check_user">
           <RecordVoiceOverOutlinedIcon color="#444444" sx={{ fontSize: 22 }} />
         </div>
+        <div className="button-check_user">
+          <MailOutlineIcon color="#444444" sx={{ fontSize: 22 }} />
+        </div>
         <div className="right_videoCall-button-container">
           <div className="right_videoCall-button">Move To Video Interview</div>
-          <KeyboardArrowDownIcon />
+          <div className="right_videoCall-button-icon">
+            <KeyboardArrowDownIcon />
+          </div>
         </div>
       </div>
     </header>
