@@ -2,9 +2,88 @@
     flex: 1;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /* background-color: #ff0000; */
 }
-.left-bar{
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
     color: #1D4ED8;
     font-size: 20px;
     font-weight: 600;
+}
+
+.london {
+    color: #7e7c7c;
+    font-size: 15px;
+}
+
+.mid-bar {
+    display: flex;
+    width: 321px;
+    height: 40px;
+    padding: 2px 15px;
+    border-radius: 16px;
+    /*border: 1px solid white;
+    */
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.right-bar {
+    display: flex;
+    gap: 20px;
+    width: auto;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-check_user {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.right_videoCall-button-container {
+    width: 270px;
+    height: 40px;
+    display: flex;
+    /* border: 1px solid #1D4ED8; */
+    border-radius: 8px;
+    background-color: #1D5ECD;
+    /* box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px; */
+
+}
+
+.right_videoCall-button {
+    display: flex;
+    color: white;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white
+}
+
+.right_videoCall-button-icon {
+    width: 20px;
+    height: 40px;
+    display: flex;
+    padding: 0px 12px;
+    color: white;
+    align-items: center;
+
 }
