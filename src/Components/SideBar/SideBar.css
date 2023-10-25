@@ -24,6 +24,10 @@
     height: 70%;
     justify-content: space-around;
 }
+ .link {
+     text-decoration: none;
+     color: inherit;
+ }
 
 .side_bar-bottom {
     display: flex;
