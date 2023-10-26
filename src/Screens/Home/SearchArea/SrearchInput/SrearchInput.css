@@ -1,0 +1,27 @@
+.input_filde {
+    height: 48px;
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid #d7dbdd;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.right-serch {
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    margin-left: 10px;
+    height: 40px;
+    width: 300px;
+    /* text-decoration: none; */
+    
+}

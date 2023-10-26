@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
-import TopHeader from "./Header/TopHeader";
-import SrearchArea from "./SearchArea/SearchArea";
 import Feed from './Feed/Feed';
+import TopHeader from './Header/TopHeader';
+import SrearchArea from './SearchArea/SearchArea/SearchArea';
 
 const Home = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./SrearchArea.css";
-import SrearchInput from "./SrearchInput";
-import Filter from "./Filter";
+import SrearchInput from "../SrearchInput/SrearchInput";
+import Filter from "../Filter/Filter";
 
 const SrearchArea = () => {
   return (
