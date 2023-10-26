@@ -9,7 +9,11 @@ const SrearchInput = () => {
     <div className="input_filde">
       <div className="right-serch">
         <SearchIcon />
-        <Input className="input" placeholder="Serach by name, edu, exp or #tag" />
+        <Input
+          className="input"
+          type="text"
+          placeholder="Serach by name, edu, exp or #tag"
+        />
       </div>
       <ErrorOutlineIcon />
     </div>
