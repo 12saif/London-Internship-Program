@@ -1,16 +1,40 @@
-.filter-container{
+.filter-container {
     margin-top: 20px;
     width: 385px;
     background-color: white;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    border-bottom: 1px solid #d7dbdd;
 }
-.filter-top{
+
+.filter-top {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #d7dbdd;
     padding: 15px 15px;
 }
-.select-counter{
+
+.select-counter {
     color: gray;
+}
+
+.filter-section_bottom {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #d7dbdd;
+}
+
+.rigth_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-icon {
+    font-size: 14px;
+}
+
+.filter-title {
+    font-size: 14px;
 }
