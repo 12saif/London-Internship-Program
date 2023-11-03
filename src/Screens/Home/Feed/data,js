@@ -1,0 +1,20 @@
+const data = [
+    {
+        image: 'https://th.bing.com/th/id/OIP.hsmILTRwPf3P8LTYzVaCYwHaHa?pid=ImgDet&w=1024&h=1024&rs=1',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+    {
+        image: 'https://th.bing.com/th/id/OIP.hsmILTRwPf3P8LTYzVaCYwHaHa?pid=ImgDet&w=1024&h=1024&rs=1',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+    {
+        image: 'https://th.bing.com/th/id/OIP.hsmILTRwPf3P8LTYzVaCYwHaHa?pid=ImgDet&w=1024&h=1024&rs=1',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    }
+]

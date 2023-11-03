@@ -11,7 +11,7 @@ const Filter = () => {
         <div className="select-counter">0 Selected</div>
       </div>
 
-      <div className="filter-section_bottom">
+      <div className="filter-section_top">
         <div className="rigth_section">
           <div className="filter-icon">
             <DescriptionOutlinedIcon fontSize="20" />
@@ -20,6 +20,48 @@ const Filter = () => {
         </div>
         <div className="dropDown-icon">
           <KeyboardArrowDownIcon />
+        </div>
+      </div>
+      <div className="filter-section_top">
+        <div className="rigth_section">
+          <div className="filter-icon">
+            <DescriptionOutlinedIcon fontSize="20" />
+          </div>
+          <div className="filter-title">Education</div>
+        </div>
+        <div className="dropDown-icon">
+          <KeyboardArrowDownIcon />
+        </div>
+      </div>
+      <div className="filter-section_top">
+        <div className="rigth_section">
+          <div className="filter-icon">
+            <DescriptionOutlinedIcon fontSize="20" />
+          </div>
+          <div className="filter-title">Work Experience</div>
+        </div>
+        <div className="dropDown-icon">
+          <KeyboardArrowDownIcon />
+        </div>
+      </div>
+      <div className="filter-section_top">
+        <div className="rigth_section">
+          <div className="filter-icon">
+            <DescriptionOutlinedIcon fontSize="20" />
+          </div>
+          <div className="filter-title">Activity Filter</div>
+        </div>
+        <div className="dropDown-icon">
+          <KeyboardArrowDownIcon />
+        </div>
+      </div>
+
+      <div className="filter-section_bottom">
+        <div className="rigth_section">
+          <div className="filter-icon">
+            <DescriptionOutlinedIcon fontSize="20" />
+          </div>
+          <div className="filter-title">Advanced Filter</div>
         </div>
       </div>
     </div>
