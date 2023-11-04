@@ -1,0 +1,68 @@
+const data = [
+    {
+        image: 'https://th.bing.com/th/id/OIP.hsmILTRwPf3P8LTYzVaCYwHaHa?pid=ImgDet&w=1024&h=1024&rs=1',
+        name:'MD Saif',
+        location: 'India, Lucknow',
+        degre: 'Bachelor - Mangalayat University Aligarh (2023 - 2023)',
+        hashtag: '#md_saif #top_developer'
+    },
+    {
+        image: 'https://th.bing.com/th/id/OIP.jryuUgIHWL-1FVD2ww8oWgHaHa?pid=ImgDet&rs=1',
+        name:'Elizabeth',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+    {
+        image: 'https://i.pinimg.com/originals/07/33/ba/0733ba760b29378474dea0fdbcb97107.png',
+        name:'Tony Stark',
+        location: 'Harvard University',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+    {
+        image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg',
+        name:'Elon Musk',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+    {
+        image: 'https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg',
+        name:'Mary',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+    {
+        image: 'https://th.bing.com/th/id/OIG.nPKbMm8ET47m3oklZw7Q?w=270&h=270&c=6&r=0&o=5&pid=ImgGn',
+        name:'Sarah',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+    {
+        image: 'https://sp-images.summitpost.org/947006.jpg?auto=format&fit=max&ixlib=php-2.1.1&q=35&w=1024&s=d877834568578388ef13b78e3cd7ba2b',
+        name:'Amanda',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+    {
+        image: 'https://th.bing.com/th/id/OIP.buFA8UmQRQVDwOd-XwqopwHaHa?pid=ImgDet&w=800&h=800&rs=1',
+        name:'Jennifer Stark',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+    {
+        image: 'https://th.bing.com/th/id/OIP.TQE4amWhYbt2Nf92XYf98gHaHa?pid=ImgDet&w=748&h=748&rs=1',
+        name:'Joe Simon',
+        location: 'Riyadh, Saudi Arabia',
+        degre: 'Bachelor - Cambridge University (2023 - 2023)',
+        hashtag: '#top_candidate #top_candidate'
+    },
+
+]
+
+export default data;
