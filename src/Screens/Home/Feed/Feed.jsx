@@ -1,5 +1,7 @@
 import React from "react";
 import "./Feed.css";
+import data from "./data,jsx";
+
 
 const Feed = () => {
   return (
@@ -19,32 +21,28 @@ const Feed = () => {
           </div>
         </div>
       </div>
-
       {/* people listing */}
-      <div className="feed-list_area">
-        <div className="list-right">
-          <input type="checkbox" />
-        </div>
-        <div className="list-mid">
-          <img
-            className="profile-img"
-            src="https://th.bing.com/th/id/OIP.hsmILTRwPf3P8LTYzVaCYwHaHa?pid=ImgDet&w=1024&h=1024&rs=1"
-          />
-        </div>
-        <div className="list-left">
-          <div className="people-name">Aaliyah Sanderson</div>
-          <div className="people-location">Riyadh, Saudi Arabia</div>
-          <div className="people-degre">
-            Bachelor - Cambridge University (2023 - 2023)
+      {data.map((item) => (
+        <div className="feed-list_area">
+          <div className="list-right">
+            <input type="checkbox" />
           </div>
-          <div className="people-hashtag">#top_candidate #top_candidate</div>
-          <div className="people-button">
-            <button>New York</button>
-            <button>Marketing</button>
-            <button>London</button>
+          <div className="list-mid">
+            <img className="profile-img" src={item.image} />
+          </div>
+          <div className="list-left">
+            <div className="people-name">{item.name}</div>
+            <div className="people-location">{item.location}</div>
+            <div className="people-degre">{item.degre}</div>
+            <div className="people-hashtag">{item.hashtag}</div>
+            <div className="people-button">
+              <button>New York</button>
+              <button>Marketing</button>
+              <button>London</button>
+            </div>
           </div>
         </div>
-      </div>
+      ))}
     </div>
   );
 };

@@ -9,7 +9,7 @@ const SrearchInput = () => {
     <div className="input_filde">
       <div className="right-serch">
         <SearchIcon />
-        <Input
+        <input
           className="input"
           type="text"
           placeholder="Serach by name, edu, exp or #tag"
